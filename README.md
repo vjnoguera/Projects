@@ -47,3 +47,29 @@ This project focuses on analyzing scientific abstracts and recommending the most
    ```bash
    pip install pandas numpy
 2. Open the Jupyter notebook to load and analyze the dataset.
+
+## **3. ChatBot with Cohere Model**
+
+This project is a Python web application built using the Flask framework, designed to interact with a MongoDB database. It allows retrieving data from a MongoDB collection, processing it using Pandas, and rendering a web interface.
+
+### Features
+
+- **Flask**: Serves the web interface and handles routing.
+- **MongoDB Integration**: Connects to MongoDB to retrieve and process data.
+- **Pandas**: Used for processing and handling data retrieved from the MongoDB collection.
+- **Cohere API**: (If applicable) for natural language processing or other AI functionalities.
+- **Cross-Origin Resource Sharing (CORS)**: Enabled to allow cross-origin requests.
+
+### Prerequisites
+
+- Python 3.x
+- Flask
+- MongoDB (either a local instance or MongoDB Atlas)
+- Cohere API key (if using Cohere functionalities)
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd <project-directory>
